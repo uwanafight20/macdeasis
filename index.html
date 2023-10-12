@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="portfolio.css">
+    <link rel="stylesheet" href="mediaqueries.css">
+    <title>Portfolio</title>
+</head>
+<body>
+   <nav id="desktop-nav">
+        <div class="logo">Mark Anthony C. De Asis</div>
+        <div>
+            <ul class="nav-links">
+                <li><a href="#about">About me</a></li>
+                <li><a href="#badges">Badges</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </div>
+   </nav>
+   <nav id="hamburger-nav">
+        <div class="logo">Mark Anthony C. De Asis</div>
+        <div class="hamburger-menu">
+            <div class="hamburger-icon" onclick="toggleMenu()">
+                <span></span>
+                <span></span>
+                <span></span>
+                </div>
+
+        <div class="menu-links">
+            <li><a href="#about" onclick="toggleMenu()">About me</a></li>
+            <li><a href="#badges" onclick="toggleMenu()">Badges</a></li>
+            <li><a href="#projects" onclick="toggleMenu()">Projects</a></li>
+            <li><a href="#contact" onclick="toggleMenu()">Contact</a></li>
+        </div>
+        </div>
+   </nav>
+<section id="profile">
+    <div class="section_pic-container">
+        <img src="01Mark-1.jpg" alt="markdeasis_profile_pic"/>
+    </div>
+    <div class="section-text">
+        <p class="section-text_p1">Hello I'm</p>
+        <h1 class="title">Mark Anthony</h1>
+        <p class="section-text_p2">IT Professional</p>
+        <div class="btn-container">
+            <button class="btn btn-color-2" onclick="window.open('https://flowcv.com/resume/2ikptctaji')">View CV</button>
+            <button class="btn btn-color-1" onclick="location.href='#contact'">Contact Info</button>
+        </div>
+       
+    </div>
+</section>
+<section id="about">
+    <p class="section-text_p1">Get to Know More</p>
+    <h1 class="title">About Me</h1>
+    <div class="section-container">
+        <div class="about-container">
+            <div class="details-container">
+                
+                <div class="skills">
+                    <img src="about-icon/skill.png" class="icon" alt="graduated">
+                    <h3 class="title-about">Skills</h3>
+                    <p></p>
+                    <div class="txt"></div>
+                </div>
+
+            </div>
+
+                <div class="objectives">
+                    <img src="about-icon/profile.png" class="icon" alt="portfolio-icon">
+                    <h3 class="title-about">Professional Summary</h3>
+                    <br>
+                <div class="txt">IT Professional with 9 years of experience in the IT industry. Managing various positions and projects. I can work efficiently with minimal supervision.<br><br>
+                    Hardware, Network, and Software Support are my expertise. GSuite Administration and Ticketing System.
+                    Provides low-cost, high-efficiency Technical or IT support Services in your business.<br><br>
+                    Currently, I'm transitioning into web development with a strong commitment to learning and growth.<br><br>
+
+                    <div class="education">
+                        <img src="about-icon/graduated.png" class="icon" alt="graduated">
+                        <h3 class="title-about">Education</h3><br>
+                
+                        <p>Rizal Technological University</p>
+                        <div class="txt">Diploma of  Computer Engineering Technology<br><br></div>
+                    </div>
+                </div>
+                </div>
+           
+        </div>
+    </div>
+</section>
+<section id="badges">
+    <p class="section-text_p1">Get to Know More</p>
+    <h1 class="title">Badges</h1>
+    <div class="badges-container">
+        <div class="badges-containerNSE">
+            <img src="badges/NSE1.png" alt="NSE1" class="badgesNSE" onclick="window.open('https://training.fortinet.com/mod/customcert/verify_certificate.php?contextid=251439&code=5f3iFzuGv5&qrcode=1')"/>
+            <img src="badges/NSE2.png" alt="NSE2" class="badgesNSE" onclick="window.open('https://training.fortinet.com/mod/customcert/verify_certificate.php?contextid=251440&code=fPXCadlU9h&qrcode=1')"/>
+            <img src="badges/NSE3.png" alt="NSE3" class="badgesNSE" onclick="window.open('https://training.fortinet.com/mod/customcert/verify_certificate.php?contextid=251441&code=CNI5yijQda&qrcode=1')"/>
+            
+        </div>
+        <div class="badges-containerGC">
+            <img src="badges/GCC_badge.png" alt="GIT" class="badgesGC" onclick="window.open('https://www.credly.com/badges/8b5dcdfb-c8f5-462e-a847-27ddfc013cdf?source=linked_in_profile')"/>
+            <img src="badges/GCE.png" alt="GIT" class="badgesGC" onclick="window.open('https://www.cloudskillsboost.google/public_profiles/a2918a02-3892-4506-8009-51b25ae55d99/badges/1785476')"/>
+            <img src="badges/GCF.png" alt="GIT" class="badgesGC" onclick="window.open('https://www.cloudskillsboost.google/public_profiles/a2918a02-3892-4506-8009-51b25ae55d99/badges/1783425')"/>
+
+        </div>
+        <div class="badges-containerOC">
+            <img src="badges/OCDMF2023.png" alt="OC1" class="badgesOC" onclick="window.open('https://catalog-education.oracle.com/pls/certview/sharebadge?id=98DFE9982F077D29545D82C971D8EDC42C2F6AB561D191219F04698744205AD4')"/>
+            <img src="badges/OCIF2023CA.png" alt="OC2" class="badgesOC" onclick="window.open('https://catalog-education.oracle.com/pls/certview/sharebadge?id=046CB627F76014766E03D23E13106B60983DFEBDDBDA1680034F4A221E12403D')"/>
+        </div>
+        </div>
+</section>
+<section id="projects">
+    <p class="section-text_p1">Get to Know More</p>
+    <h1 class="title">Projects</h1>
+</section>
+<section id="contact">
+    <p class="section-text_p1">Get to Know More</p>
+    <h1 class="title">Contact</h1>
+    <div class="socials-container">
+        <img src="social-icon/linkedin.png" 
+        alt="My LinkedIn" 
+        class="icon" 
+        onclick="window.open('https://linkedin.com/in/macdeasis')"/>
+        
+        <img src="social-icon/gmail.png" 
+        alt="My Gmail" 
+        class="icon"
+        onclick="location.href='mailto:deasismac0915@gmail.com'"/>
+
+        <img src="social-icon/viber.png" 
+        alt="My viber" 
+        class="icon" 
+        onclick="location.href='viber://chat?number=+639079221013'"/>
+
+        <img src="social-icon/whatsapp.png" 
+        alt="My whatsapp" 
+        class="icon" 
+        onclick="window.open('https://wa.me/09173421058')"/>
+    </div>
+
+</section>
+
+<script src="script.js"></script>
+</body>
+</html>
